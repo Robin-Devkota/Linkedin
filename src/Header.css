@@ -1,0 +1,45 @@
+.header{
+    background-color: white;
+    position: sticky;
+    top: 0;/*top 0 and sticky to make it stick at top */
+ display: flex; /*flex arange ina  row; */
+ justify-content:space-evenly;
+ border-bottom: 0.13px solid  lightgray;
+ padding-top: 10px;
+ padding-bottom:10px;
+ width: 100%;
+ z-index: 999;;
+
+}
+.header__left > img{
+   object-fit: contain;
+   height: 40px;
+   margin-right: 10px;
+  
+  
+}
+.header__left{
+    display: flex;
+   
+}
+.header__search{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 22px;
+    background-color:  #ccf3f8; ;
+    color: gray;
+}
+.header__search > input{
+    outline: none;
+    border: none;
+    background: none;
+
+}
+.header__right{
+    display: flex;
+    
+   
+    
+}
